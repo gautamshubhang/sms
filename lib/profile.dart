@@ -28,7 +28,7 @@ class _profileState extends State<profile> {
               children: [
                 OutlinedButton(onPressed: (){}, child: Icon(Icons.arrow_back_ios,color: Colors.white),style: ButtonStyle(fixedSize: MaterialStatePropertyAll(Size.fromWidth(28.0)),backgroundColor: MaterialStatePropertyAll(Color.fromRGBO(53, 54, 58, 0.3))),),
                 Spacer(),
-                Text('       PROFILE',style: TextStyle(color: Colors.white,fontSize: 16.0,fontWeight: FontWeight.w600)),
+                Text('    Profile',style: TextStyle(color: Colors.white,fontSize: 16.0,fontWeight: FontWeight.w600)),
                 Spacer(),
                 TextButton(onPressed: (){}, child: Text('LOGOUT',style: TextStyle(color: Colors.white,fontSize: 16.0,fontWeight: FontWeight.w600))),
               ],
